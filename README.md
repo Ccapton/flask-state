@@ -7,6 +7,7 @@
 [![Python Badge](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)](https://pypi.org/project/Flask-State/)
 
 # Flask-State
+English | [简体中文](https://github.com/yoobool/flask-state/blob/master/README.zh-CN.md)<br>
 
 Flask-State is a lightweight chart plugin for displaying machine state data in your web application.
 
@@ -39,6 +40,7 @@ section of your HTML document:
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/yoobool/flask-state@v1.0.6/packages/umd/flask-state.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/yoobool/flask-state@v1.0.6/packages/flask-state.min.css" rel="stylesheet">
 ```
 
 ```bash
@@ -68,7 +70,7 @@ flask_state.init_app(app)
 import 'echarts';
 import 'flask-state/flask-state.min.css';
 import {init} from 'flask-state';
-// Create a DOM node with ID 'test'. After init() binds the node, 
+// Create a DOM node with ID 'test'. After init() binds the node,
 // click to open the listening window
 init({dom:document.getElementById('test')});
 ```
